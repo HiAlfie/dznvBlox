@@ -93,37 +93,20 @@ Link : https://discord.gg/tMtdpUSrdM
 
 ## ▶️ Usage
 
-### Option 1: Prebuilt Executable
-1. Download the release
-2. Extract the folder
-3. Run `START.BAT`
-4. Launch Roblox accounts normally (browser or bootstrapper)
+**Simply run the executable as Administrator:**
 
-### Option 2: Run From Source
-```bash
-START.bat
-```
+1. Download `dznvBlox.exe` from the [Release](https://github.com/HiAlfie/dznvBlox/releases)
+2. Right-click and select **"Run as Administrator"**
+3. Launch Roblox accounts normally (browser or bootstrapper)
+4. That's it!
 
 ---
 
-## 📦 Requirements (Source Code)
+## 📦 Requirements
 
 - Windows 10 / 11
-
-- Python 3.9+
-
-- Required libraries:
-```
-pip install psutil requests pillow pyperclip
-```
-
-**Additional requirements:**
-
-- handle64.exe (Sysinternals Handle tool)
-
-Must be located in:
-
-- handle/handle64.exe
+- Administrator privileges
+- No additional setup required!
 
 ---
 
