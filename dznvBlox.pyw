@@ -26,14 +26,14 @@ from tkinter import messagebox
 try:
     ctypes.windll.shcore.SetProcessDpiAwareness(1)
 except:
-    pass
+    ...
 
 window = Tk()
 
 try:
     window.tk.call('tk', 'scaling', 1.0)
 except:
-    pass
+    ...
 
 window.title("dznvBlox")
 window.geometry("764x805")
@@ -118,18 +118,18 @@ class dznvBlox:
             try:
                 os.remove("Updater.py")
             except:
-                pass
+                ...
         elif os.path.exists("Updater.exe"):
             try:
                 os.remove("Updater.exe")
             except:
-                pass
+                ...
         else:
-            pass
+            ...
         try:
             os.remove("update.zip")
         except:
-            pass
+            ...
         self.up_cur_version = open("version/version.txt","r+").read()
         self.up_git_raw = "https://raw.githubusercontent.com/unknownperson-vos/dznvBlox/refs/heads/main/version/version.txt"
         if self._CheckUpdate():
@@ -182,7 +182,7 @@ class dznvBlox:
             if os.path.exists(src):
                 shutil.copytree(src, dst)
             else:
-                pass
+                ...
 
     def _Loads_Settings(self):
         with open("data/configs/configs.json", "r", encoding="utf-8") as f:
@@ -295,7 +295,7 @@ class dznvBlox:
         try:
             shutil.rmtree(quarantine_path, ignore_errors=True)
         except:
-            pass
+            ...
 
     def _Runtime(self):
         while True:
