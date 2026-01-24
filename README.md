@@ -95,8 +95,8 @@ Link : https://discord.gg/tMtdpUSrdM
 
 **Simply run the executable as Administrator:**
 
-1. Download `dznvBlox.exe` from the [Release](https://github.com/HiAlfie/dznvBlox/releases)
-2. Right-click and select **"Run as Administrator"**
+1. Download the `dznvblox-release` folder from the [Here](https://github.com/HiAlfie/dznvBlox/blob/main/dznvBlox-Release)
+2. Right-click the .exe and select **"Run as Administrator"**
 3. Launch Roblox accounts normally (browser or bootstrapper)
 4. That's it!
 
